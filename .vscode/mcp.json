@@ -1,12 +1,13 @@
 {
+  "_comment": "Copy this file to .vscode/mcp.local.json and fill in your real printer values. Never commit real credentials.",
   "servers": {
     "3dprint": {
       "command": "mcp-3d-printer-server",
       "env": {
         "PRINTER_TYPE": "bambu",
-        "PRINTER_HOST": "192.168.86.34",
-        "BAMBU_SERIAL": "03919D561401727",
-        "BAMBU_TOKEN": "a87b74a5"
+        "PRINTER_HOST": "<YOUR_PRINTER_IP>",
+        "BAMBU_SERIAL": "<YOUR_BAMBU_SERIAL>",
+        "BAMBU_TOKEN": "<YOUR_BAMBU_TOKEN>"
       }
     }
   }

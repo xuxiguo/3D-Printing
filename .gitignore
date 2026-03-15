@@ -1,0 +1,10 @@
+# Local credentials — never commit real printer credentials
+.vscode/mcp.local.json
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+
+# Temporary files
+temp/
+*.tmp
