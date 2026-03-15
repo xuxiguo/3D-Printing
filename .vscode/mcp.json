@@ -1,0 +1,13 @@
+{
+  "servers": {
+    "3dprint": {
+      "command": "mcp-3d-printer-server",
+      "env": {
+        "PRINTER_TYPE": "bambu",
+        "PRINTER_HOST": "192.168.86.34",
+        "BAMBU_SERIAL": "03919D561401727",
+        "BAMBU_TOKEN": "a87b74a5"
+      }
+    }
+  }
+}
